@@ -1,0 +1,82 @@
+/*================================================================================
+	Item Name: Robust - Responsive Admin Theme
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.blank-page {
+	min-height: 1000px;
+}
+.left ul li {
+	color: sienna;
+	font-size: 16px;
+	list-style: inside;
+	padding: 5px;
+	border: 1px solid seashell;
+	box-shadow: 0px 3px 6px -1px #ccc;
+	margin: 10px 0;
+}
+.right ul li {
+	color: sienna;
+	font-size: 16px;
+	/*list-style: inside;*/
+	padding: 5px 20px;
+	border: 1px solid seashell;
+	box-shadow: 0px 3px 6px -1px #ccc;
+	margin: 10px 0;
+}
+#card_details {
+	background-color: #6196bd;
+	padding: 15px;
+	margin: 0 auto;
+	/* text-align: center; */
+	width: 60%;
+	border-radius: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 3px #666;
+}
+#card_details h3 {
+	color: white;
+	padding: 5px;
+}
+#card_details h1 {
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+}
+#card_details p {
+	color: white;
+	padding: 5px;
+	font-size: 16px;
+	font-family: arial;
+}
+.card_number {
+	float: right;
+	color: white;
+	margin-top: -36px;
+	margin-right: 54px;
+}
+#card_details_back {
+	background-color: #98d434;
+	padding: 15px;
+	margin: 0 auto;
+	 text-align: center; 
+	width: 60%;
+	border-radius: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 3px #666;
+	min-height: 180px;
+}
+
+#card_details_back h3 {
+	padding-top: 60px;
+	/* margin: 22px; */
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
